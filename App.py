@@ -33,7 +33,7 @@ def delete_user(user_id):
     
 create_table()
 
-st.title("Simple User Management App by Alex Santos 🙇🏻‍♀️")
+st.title("Simple User Management App by Alex Santos 👩🏻‍💻")
 
 menu = ["Add User", "View Users", "Delete User"]
 choice = st.sidebar.selectbox("Menu", menu)
